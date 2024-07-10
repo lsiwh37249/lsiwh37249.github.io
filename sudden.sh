@@ -2,6 +2,7 @@
 
 FILE=~/tmp/_SUDDEN
 
+
 while true
 do
     if [ -e "$FILE" ]; then 
