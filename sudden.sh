@@ -7,7 +7,7 @@ while true
 do
     if [[ -f "$FILE" ]]; then 
 	DATE=$(date +"%Y%m%d %H:%M:%S")
-	echo "check $DATA"
+	echo "$DATE SUDDEN!!!"
 	# echo "SUDDEN!!!"
     else 
 	clear
