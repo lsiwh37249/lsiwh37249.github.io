@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FILE=~/tmp/_SUDDEN
-DATE=$(date +"%Y%m%d %H:%M:%S")
+# DATE=$(date +"%Y%m%d %H:%M:%S")
 
 while true
 do
@@ -10,7 +10,8 @@ do
 	echo "SUDDEN!!!"
     else 
 	clear
-	figlet KIA
+	figlet KIA	
+	DATE=$(date +"%Y%m%d %H:%M:%S")
 	echo $DATE
     fi
 
