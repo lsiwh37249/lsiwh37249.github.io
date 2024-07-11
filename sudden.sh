@@ -1,16 +1,18 @@
 #!/bin/bash
 
 FILE=~/tmp/_SUDDEN
-DATE=$(date +"%Y%m%d %H:%M:%S")
+# DATE=$(date +"%Y%m%d %H:%M:%S")
 
 while true
 do
     if [[ -f "$FILE" ]]; then 
-        #echo "check $FILE"
-	echo "SUDDEN!!!"
+	DATE=$(date +"%Y%m%d %H:%M:%S")
+	echo "$DATE SUDDEN!!!"
+	# echo "SUDDEN!!!"
     else 
 	clear
-	figlet KIA
+	figlet KIA	
+	DATE=$(date +"%Y%m%d %H:%M:%S")
 	echo $DATE
     fi
 
