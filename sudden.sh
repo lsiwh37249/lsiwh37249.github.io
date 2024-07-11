@@ -10,6 +10,7 @@ do
 	echo "SUDDEN!!!"
     else 
 	clear
+	date
     fi
 
     sleep 3
