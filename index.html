@@ -466,6 +466,29 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		<!-- Firebase -->
+  			<script type="module">
+   			// Import the functions you need from the SDKs you need
+    			import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+    			import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
+    			// TODO: Add SDKs for Firebase products that you want to use
+    			// https://firebase.google.com/docs/web/setup#available-libraries
 
+    			// Your web app's Firebase configuration
+    			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+   			const firebaseConfig = {
+      				apiKey: "AIzaSyAbJe3o0ySfP8VqlZgD-ZhwCXxzLOEC24E",
+      				authDomain: "lsiwh37249-2acf4.firebaseapp.com",
+      				projectId: "lsiwh37249-2acf4",
+      				storageBucket: "lsiwh37249-2acf4.appspot.com",
+     				messagingSenderId: "261770034546",
+     	 			appId: "1:261770034546:web:42d11c8de593fb8cdbb1eb",
+      				measurementId: "G-VEB3QKH22Z"
+   				};
+
+    			// Initialize Firebase
+    			const app = initializeApp(firebaseConfig);
+    			const analytics = getAnalytics(app);
+ 		</script>	
 	</body>
 </html>

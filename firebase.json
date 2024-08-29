@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "lsiwh37249",
+    "public": "docs",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
